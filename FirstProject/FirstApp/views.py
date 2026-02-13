@@ -140,3 +140,5 @@ def homepage(request):
     </center>''';
     return HttpResponse(htmldata);
 	
+def github_view(request):
+	return HttpResponse("<h1>Hello from GitHub.com</h1><hr />");
